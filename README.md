@@ -44,4 +44,4 @@ A PostgreSQL + Python CLI app demonstrating CRUD operations on a `students` tabl
 - deleteStudent(id) - deletes a student
 
 ## Demo Video
-[PASTE YOUTUBE LINK HERE]
+https://youtu.be/7ERiKVjFx5k
