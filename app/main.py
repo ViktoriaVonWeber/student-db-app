@@ -3,7 +3,7 @@ import sys
 from datetime import date
 from db import get_connection
 
-
+"""the collection of all students being returned"""
 def getAllStudents():
     conn = get_connection()
     try:
@@ -25,7 +25,7 @@ def getAllStudents():
     finally:
         conn.close()
 
-
+"""adding a student to the postgre database and returning info"""
 def addStudent(first_name, last_name, email, enrollment_date):
     conn = get_connection()
     try:
@@ -44,7 +44,7 @@ def addStudent(first_name, last_name, email, enrollment_date):
     finally:
         conn.close()
 
-
+"""changing the email in both the database and returning"""
 def updateStudentEmail(student_id, new_email):
     conn = get_connection()
     try:
@@ -64,7 +64,7 @@ def updateStudentEmail(student_id, new_email):
     finally:
         conn.close()
 
-
+"""delete that student brah"""
 def deleteStudent(student_id):
     conn = get_connection()
     try:
@@ -81,7 +81,7 @@ def deleteStudent(student_id):
     finally:
         conn.close()
 
-
+"""print the menu. Use the nice === so it looks pretty, as seen in COMP2404"""
 def menu():
     while True:
         print("\n===== Student Database Menu =====")
