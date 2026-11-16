@@ -45,3 +45,5 @@ A PostgreSQL + Python CLI app demonstrating CRUD operations on a `students` tabl
 
 ## Demo Video
 https://youtu.be/7ERiKVjFx5k
+
+Note: ChatGPT was used to format this README for ease of reading.
