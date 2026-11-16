@@ -44,6 +44,6 @@ A PostgreSQL + Python CLI app demonstrating CRUD operations on a `students` tabl
 - deleteStudent(id) - deletes a student
 
 ## Demo Video
-https://youtu.be/7ERiKVjFx5k
+https://youtu.be/Yl72PnmbN4Q
 
 Note: ChatGPT was used to format this README for ease of reading.
